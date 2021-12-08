@@ -1,0 +1,25 @@
+.title-aboutMe{
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+.subtitle-aboutMe{
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+.subtitle-aboutMe a{
+    text-decoration: none;
+}
+.link-coderh{
+    color: gray;
+}
+.link-coderh:hover{
+    color: rgb(114, 114, 114);
+}
+.link-dh{
+    color: crimson;
+}
+.link-dh:hover{
+    color: rgb(192, 13, 49);
+}

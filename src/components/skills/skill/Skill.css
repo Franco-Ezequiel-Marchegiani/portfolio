@@ -1,0 +1,44 @@
+.containerSkills_logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: crimson;
+}
+.boxInfoSkills{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 20px 0;
+    width: 80vw;
+}
+.skillLogo{
+    max-width: 200px;
+    max-height: 200px;
+}
+.experiencieSkill{
+    padding: 20px 0 40px 0;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 70%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 540px){
+    .boxInfoSkills{
+        width: 35vw;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .boxInfoSkills{
+        width: 40vw;
+    }
+    .boxInfoSkills{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
