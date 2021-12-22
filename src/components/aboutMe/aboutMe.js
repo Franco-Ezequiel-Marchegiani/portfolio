@@ -1,21 +1,24 @@
 import React from 'react';
 import './aboutMe.css';
-import Header from '../navBar/NavBar'
 function AboutMe() {
   return (
     
     <main className="about-me">
-      <Header />
       <div>
-        <h1 className="title-aboutMe">Soy Franco Ezequiel Marchegiani</h1>
-        <h2 className="subtitle-aboutMe">Soy programador Front-End, estudié en <a className="link-coderh" href="https://www.coderhouse.com/" target="/blank">CoderHouse</a> & <a className="link-dh" href="https://www.digitalhouse.com/ar" target="/blank">DigitalHouse</a> y actualmente trabajo medio tiempo en CoderHouse como tutor</h2>
+        <h1 className="title-aboutMe">Acerca de mí</h1>
+        <h2 className="subtitle-aboutMe">Soy programador Front-End, tengo 20 años, soy de Argentina, estudié en <a className="link-coderh" href="https://www.coderhouse.com/" target="/blank">CoderHouse</a> & <a className="link-dh" href="https://www.digitalhouse.com/ar" target="/blank">DigitalHouse</a> y actualmente trabajo medio tiempo en CoderHouse como tutor</h2>
 
-        <h3>Aspecto profesional</h3>
-        <p>Me integré en el mundo de la programación desde el 2019, desde siempre me interesó todo el aspecto tecnológico y el crear nuevas cosas, y que estas mismas le sean de utilidad a terceros.</p>
-        <p>Si bien en DigitalHouse realicé estudios de FullStack, me siento más atraido por el area de Front-End</p>
-        <p>Actualmente me encuentro en búsqueda de un trabajo tiempo completo, ya que me encantaría poder dedicarme y profesionalizarme en esta area de la tecnología para no dejar de aprender en ningún momento</p>
-
-        <h4>Aspecto personal</h4>
+        <div className="aspectoProfesional-personal_Container">
+          <div className='aspectoProfesionalContainer'>
+            <h3>Aspecto profesional</h3>
+            <p>Me integré en el mundo de la programación desde el 2019, desde siempre me interesó todo el aspecto tecnológico y el crear nuevas cosas, y que estas mismas le sean de utilidad a terceros.</p>
+            <p>Si bien en DigitalHouse realicé estudios de FullStack, me siento más atraido por el area de Front-End</p>
+            <p>Actualmente me encuentro en búsqueda de un trabajo tiempo completo, ya que me encantaría poder dedicarme y profesionalizarme en esta area de la tecnología para no dejar de aprender en ningún momento</p>
+          </div>
+          <div className='aspectoPersonalContainer'>
+            <h4>Aspecto personal</h4>
+          </div>
+        </div>
         <p></p>
       </div>
     </main>

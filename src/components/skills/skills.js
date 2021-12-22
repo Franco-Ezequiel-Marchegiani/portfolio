@@ -57,7 +57,7 @@ function Skills() {
     },
     {
       logo: EnglishLogo,
-      experience: "Nivel general de inglés entre A2 ~ B1"
+      experience: "Nivel general de inglés entre B1 ~ B2"
     }
   ]
   return (
