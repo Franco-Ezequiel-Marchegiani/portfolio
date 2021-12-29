@@ -1,0 +1,129 @@
+/* WorkExperience Component */
+.workExperiencieTitlePresentation{
+    text-align: center;
+}
+.workExperiencieSubtitlePresentation{
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.workExperiencieParagraph{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+/* AYO Work Experience */
+.titleWorkExperienceAYO{
+    padding-top: 20px;
+    text-align: center;
+}
+.paragraphWorkExperienceAYO{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 32px;
+}
+.secondParagraphWorkExperienceAYO{
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 0px 0 40px;
+}
+.imageContainerAYOExperience{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.imageContainerAYOExperience img{
+    width: 80%;
+    padding: 40px 0;
+    margin: auto;
+}
+.GifHomeAYO{
+     display: none;
+}
+.GifSobreAYO{
+    display: none;
+}
+.GifAYOEmprende{
+    display: none;
+} 
+
+.linkFundacionAYO{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding-left: 4px;
+}
+/* Work Experience DW & JS */
+.sectionTitle{
+    text-align: center;
+}
+.linkImage{
+    text-align: center;
+}
+.containerImages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerImagesGraphics{
+    display: flex;
+    justify-content: center;
+}
+.linkImageGraphic{
+    text-align: center;
+}
+.imageFeedback{
+    max-width: 90%;
+    margin: 20px 0;
+    transition: 750ms;
+}
+.imageFeedback:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (min-width: 768px){
+    .imageFeedback{
+        max-width: 65%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .sectionImageContainer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .containerImages{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: norow;
+        flex-direction: initial;
+    }
+    .linkImage{
+        text-align: center;
+        max-width: 100%;
+    }
+    .linkImageGraphic{
+        text-align: center;
+    }
+    .imageFeedback{
+        max-width: 75%;
+        min-height: 82%;
+        margin: 60px 0;
+    }
+    /* AYO Work Experience 1200px*/
+    .imageContainerAYOExperience img{
+        width: 40%;
+    }
+    .GifHomeAYO{
+        display: initial;
+   }
+   .GifSobreAYO{
+       display: initial;
+   }
+   .GifAYOEmprende{
+       display: initial;
+   } 
+}

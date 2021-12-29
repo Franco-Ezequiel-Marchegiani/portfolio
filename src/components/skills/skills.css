@@ -1,6 +1,16 @@
 .skillsContainer{
-    padding-top: 200px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     min-width: 80%;
+}
+.skills_habilidadesTitle{
+    text-align: center;
+    padding-top: 80px;
+}
+.skills_habilidadesSubTitle{
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 40px;
 }

@@ -63,8 +63,8 @@ function Skills() {
   return (
     <div className="a">
     <Header />
-    <h1>Skills & Habilidades</h1>
-    <h2>A continuación, les presento las herramientas de las cuales poseo conocimiento. También añadi el tiempo desde que estudio y trabajo (de manera autodidacta) con dichas herramientas </h2>
+    <h1 className='skills_habilidadesTitle'>Skills & Habilidades</h1>
+    <h2 className='skills_habilidadesSubTitle'>A continuación, les presento las herramientas de las cuales poseo conocimiento. También añadi el tiempo desde que estudio y trabajo (de manera autodidacta) con dichas herramientas </h2>
     <div className="skillsContainer">
       <Skill data={skillData}/>
     </div>

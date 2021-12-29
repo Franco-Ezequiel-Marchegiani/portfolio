@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './aboutMe.css';
 function AboutMe() {
   return (
@@ -6,7 +7,8 @@ function AboutMe() {
     <main className="about-me">
       <div>
         <h1 className="title-aboutMe">Acerca de mí</h1>
-        <h2 className="subtitle-aboutMe">Soy programador Front-End, tengo 20 años, soy de Argentina, estudié en <a className="link-coderh" href="https://www.coderhouse.com/" target="/blank">CoderHouse</a> & <a className="link-dh" href="https://www.digitalhouse.com/ar" target="/blank">DigitalHouse</a> y actualmente trabajo medio tiempo en CoderHouse como tutor</h2>
+        <h2 className="subtitle-aboutMe">Soy programador Front-End, tengo 20 años, soy de Argentina, estudié en 
+        <Link className="link-coderh" to="//www.coderhouse.com/" target="_blank" rel="noopener noreferrer">CoderHouse</Link> & <Link className="link-dh" to="//www.digitalhouse.com/ar" target="_blank" rel="noopener noreferrer">DigitalHouse</Link> y actualmente trabajo medio tiempo en CoderHouse como tutor</h2>
 
         <div className="aspectoProfesional-personal_Container">
           <div className='aspectoProfesionalContainer'>

@@ -1,35 +1,17 @@
 import React from 'react';
+import AYOWorkExperience from './AYOWorkExperience';
+import CoderHouseWorkExp from './CoderHouseWorkExp';
 import './workExperience.css';
-import camadaN1_DW from '../../images/experiencia-laboral/camadaN1-desarrolloWeb.jpg';
-import camadaN1_DW_graphic from '../../images/experiencia-laboral/camadaN1_grafico-desarrolloWeb.png';
-
-import camadaN2_JS from '../../images/experiencia-laboral/camadaN2-js.jpg';
-import camadaN2_JS_graphic from '../../images/experiencia-laboral/camadaN2_grafico-js.png';
-
-import camadaN3_DW from '../../images/experiencia-laboral/camadaN3-desarrolloWeb.png';
-import camadaN3_DW_graphic from '../../images/experiencia-laboral/camadaN3_grafico-desarrolloWeb.png';
-
-import camadaN4_DW from '../../images/experiencia-laboral/camadaN4-desarrolloWeb.png';
-import camadaN4_DW_graphic from '../../images/experiencia-laboral/camadaN4_grafico-desarrolloWeb.png';
-
-import camadaN5_DW from '../../images/experiencia-laboral/camadaN5-desarrolloWeb.png';
-import camadaN5_DW_graphic from '../../images/experiencia-laboral/camadaN5_grafico-desarrolloWeb.png';
-
-import camadaN6_DW from '../../images/experiencia-laboral/camadaN6-desarrolloWeb.png';
-import camadaN6_DW_graphic from '../../images/experiencia-laboral/camadaN6_grafico-desarrolloWeb.png';
-
-import camadaN7_JS from '../../images/experiencia-laboral/camadaN7-js.png';
-import camadaN7_JS_graphic from '../../images/experiencia-laboral/camadaN7_grafico-js.png';
-
 
 function WorkExperience() {
-
-  let webDeveloper = [camadaN1_DW, camadaN1_DW_graphic, camadaN3_DW, camadaN3_DW_graphic, camadaN4_DW, camadaN4_DW_graphic, camadaN5_DW, camadaN5_DW_graphic, camadaN6_DW, camadaN6_DW_graphic];
-  let javascript = [camadaN2_JS, camadaN2_JS_graphic, camadaN7_JS, camadaN7_JS_graphic];
   return (
     <div className="wordExperience_container">
-    <h1>Experiencia Laboral</h1>
-    <h2>CoderHouse</h2>
+    <h1 className='workExperiencieTitlePresentation'>Experiencia Laboral</h1>
+    <h2 className='workExperiencieSubtitlePresentation'>Tutor de CoderHouse</h2>
+    <p className='workExperiencieParagraph'>Mi rol en este puesto es el de estar a cargo de un grupo reducido de alumnos (entre 15 y 25 aprox), a los cuales debo aconsejar, brindar material complementario, resolver las dudas que surjan (tanto administrativas como técnicas de los contenidos que se ven en la cursada), y corregir los "desafios" (ejercicios de cada clase como práctica) de cada uno de los alumnos, y brindarle un feedback correspondiente a cada entrega.</p>
+    <p className='workExperiencieParagraph'>Actualmente, los cursos los cuales brindo mi servicio de tutoría son en los cursos de:</p>
+    <CoderHouseWorkExp/>
+    <AYOWorkExperience/>
     </div>
   );
 }

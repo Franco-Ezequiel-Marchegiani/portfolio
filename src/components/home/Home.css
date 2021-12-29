@@ -6,6 +6,7 @@
     background-position: 50% 50%;
     position: relative;
     background-color: #000;
+    box-sizing: border-box;
 }
 .body:before {
 	content:'';
@@ -27,6 +28,7 @@
 }
 .titleHome{
     color: white;
+    text-align: center;
 }
 .subTitle{
     margin: 8px 0 20px 0;
