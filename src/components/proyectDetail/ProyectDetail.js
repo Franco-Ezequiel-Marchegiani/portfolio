@@ -75,16 +75,7 @@ function ProyectDetail(props) {
   return (
     <section className="">
     <h1>Hola</h1>
-    {/* {infoProyectos.filter((proyecto, i) =>
-      console.log(proyecto.id === params.id)
-      
-    ).map((proyecto, i) =>{
-      return(
-        <section>
-        <h1>{proyecto.tituloProyecto}</h1>
-        </section>
-      )
-    })} */}
+    <h2>{proyectoSeleccionado.tituloProyecto}</h2>
     </section>
   );
 }
