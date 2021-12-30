@@ -11,6 +11,7 @@ import WorkExperience from "./components/workExperience/WorkExperience";
 import NavBar from './components/navBar/NavBar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
+import ProyectDetail from './components/proyectDetail/ProyectDetail';
 ReactDOM.render(
   <React.StrictMode>
   
@@ -23,6 +24,7 @@ ReactDOM.render(
         <Route path="/Proyects" exact={true} element={<Proyect/> }/>
         <Route path="/Skills" exact={true} element={<Skills/> }/>
         <Route path="/WorkExperience" exact={true} element={<WorkExperience/> }/>
+        <Route path="/ProyectDetail/:id" exact={true} element={<ProyectDetail/> }/>
       </Routes>
       <Footer/>
     </BrowserRouter>

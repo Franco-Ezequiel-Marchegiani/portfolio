@@ -1,0 +1,96 @@
+.titleProyectos{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.proyectLinksContainer{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.proyectLinksContainer > *{
+    padding: 8px 0;
+    text-decoration: none;
+    color: #4adbff;
+    font-weight: 700;
+    transition: all 250ms ease;
+}
+.proyectLinksContainer > *{
+    padding: 8px 0;
+    text-decoration: none;
+    color: #4adbff;
+    font-weight: 700;
+    transition: all 250ms ease;
+}
+
+.proyectLinksContainer > *:hover{
+    color: rgb(88, 198, 226);
+    transition: all 250ms ease;
+}
+.ayoPage::after{
+    content: "";
+}
+.imageProyect{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0px;
+}
+.imageProyect img{
+    width: 80%;
+    margin: auto;
+    -webkit-filter: brightness(100%);
+    transition: all 1s ease;
+}
+
+.imageProyect img:hover{
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.imageLinkProyect{
+    text-align: center;
+}
+@media only screen and (min-width: 768px){
+    .proyectLinksContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .proyectLinksContainer > *::after{
+        content: "|";
+        padding: 0 12px 0;
+    }
+    .ayoPage::after{
+        content: "";
+    }
+    .imageProyect img{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .proyectsImageContainer{
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .imageProyect{
+        display: inline-block;
+        flex-wrap: wrap;
+        padding: 24px 0px;
+        width: 45%;
+    }
+    .imageLinkProyect{
+        width: 45%;
+    }
+    .imageProyect img{
+        width: 100%;
+    }
+}
