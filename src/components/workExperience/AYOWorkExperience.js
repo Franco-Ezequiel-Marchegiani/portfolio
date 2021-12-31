@@ -13,28 +13,22 @@ function AYOWorkExperience() {
   let arrayImages = [
     {
       imagen: ImagenHomeAYO,
-      nombreClase: "imagenHomeAyo"
+      nombreClase: "imagenHomeAyo",
+      gif: GifHomeAYO,
+      gifClase: "GifAYO"
     },
-    {
-      imagen: GifHomeAYO,
-      nombreClase: "GifHomeAYO"
-    },
-    {
+      {
       imagen: ImagenSobreAYO,
-      nombreClase: "ImagenSobreAYO"
-    },
-    {
-      imagen: GifSobreAYO,
-      nombreClase: "GifSobreAYO"
+      nombreClase: "ImagenSobreAYO",
+      gif: GifSobreAYO,
+      gifClase: "GifAYO"
     },
     {
       imagen: ImagenAYOEmprende,
-      nombreClase: "ImagenAYOEmprende"
-    },
-    {
-      imagen: GifAYOEmprende,
-      nombreClase: "GifAYOEmprende"
-    }
+      nombreClase: "ImagenAYOEmprende",
+      gif: GifAYOEmprende,
+      gifClase: "GifAYO"
+    } 
   ]
   return (
     <section>
@@ -44,17 +38,15 @@ function AYOWorkExperience() {
       <Link className='linkFundacionAYO' to="//franco-ezequiel-marchegiani.github.io/proyecto-AYO/index.html" target="_blank" rel="noopener noreferrer">siguiente link</Link></p>
     <p className='secondParagraphWorkExperienceAYO'> Si bien esto ya lo mencione en la seccion de "proyectos", tambien lo coloco en experiencia laboral ya que fue el primer trabajo freelance y contacto con el mundo laboral que tuve, trabajando con un profesional del area UX/UI. Y aunque lo que realice no haya perdurado como proyecto final, me llevo muchas enseñanzas, experiencias y lecciones del tiempo en el que trabaje en este proyecto
     </p>
-    <div className='imageContainerAYOExperience'>
-      {/* <div className='imagenHomeAyo'>
-      </div>
-      <div className='ImagenSobreAYO'>
-      </div>
-      <div className='ImagenAYOEmprende'>
-      </div> */}
+    <section className='wrapper'>
       {arrayImages.map((image, i) =>
-        <img className={image.nombreClase} key={image + i} src={image.imagen} alt="Imagen muestra página AYO" />
+        <div key={image + i} className='imageContainerAYOExperience'>
+            <img className={image.gifClase} key={image.gifClase + i} src={image.gif} alt="gif muestra AYO"/>
+            <img className={image.nombreClase} key={image.nombreClase + i} src={image.imagen} alt="Imagen muestra página AYO" />
+        </div>
       )} 
-    </div>
+      
+      </section>
     </section>
   );
 }
