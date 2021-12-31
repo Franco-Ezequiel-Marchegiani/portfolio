@@ -13,20 +13,20 @@
 .proyectLinksContainer > *{
     padding: 8px 0;
     text-decoration: none;
-    color: #4adbff;
+    color: black;
     font-weight: 700;
     transition: all 250ms ease;
 }
 .proyectLinksContainer > *{
     padding: 8px 0;
     text-decoration: none;
-    color: #4adbff;
+    color: black;
     font-weight: 700;
     transition: all 250ms ease;
 }
 
 .proyectLinksContainer > *:hover{
-    color: rgb(88, 198, 226);
+    color: #0d58c9;
     transition: all 250ms ease;
 }
 .ayoPage::after{
@@ -35,7 +35,7 @@
 .proyectsImageContainer{
     display: flex;
     width: 100%;
-    height: 80%;
+    height: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -66,13 +66,14 @@
 .imageLinkProyect{
     text-align: center;
     width: 100%;
+    height: 100%;
 }
 .imageLinkProyect img{
+    width: 100%;
     height: 100%;
 }
 .gifLinkProyect{
     width: 100%;
-    height: 100%;
     text-align: center;
     position: absolute;
     opacity: 0;
@@ -80,16 +81,23 @@
     left: 0;
     transition: all 750ms ease;
 }
-.gifLinkProyect img{
-    width: 100%;
-    height: 100%;
-}
-.queenGif img{
-    height: 97.1%;
-}
 .gifLinkProyect:hover{
     opacity: 1;
     transition: all 750ms ease;
+}
+.titlePresentationProyect{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.titlePresentationProyect h1{
+    padding-top: 20px;
+    font-weight: 500;
+}
+.textBodyPresentationProyect{
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
 }
 @media only screen and (min-width: 768px){
     /* YA HICE RESPONSIVE LO MÁS PEQUEÑO, SEGUIR DESDE ACÁ Y RESCATAR LO COMENTADO DE ARRIBA
@@ -122,23 +130,14 @@
         flex-wrap: wrap;
         padding: 24px 0px;
         width: 45%;
+        height: 50%;
     }
     .imageLinkProyect{
-        width: 45%;
+        width: 100%;
     }
-    .bowieGif{
-        height: 93.7%;
-    }
-    .queenGif img{
-        height: 91.1%;
+    .gifLinkProyect{
+        width: 100%;
     }
     
-}
-@media only screen and (min-width: 1600px){
-    .bowieGif{
-        height: 94.9%;
-    }
-    .queenGif img{
-        height: 92.4%;
-    }
+    
 }

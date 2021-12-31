@@ -14,11 +14,11 @@ const infoProyectos = [
   {
     id: 1,
     claseLink: "davidBowiePage",
-    tituloProyecto: "David Bowie Page",
+    tituloProyecto: "David BoWeb",
     subTitle:"Proyecto realizado durante mi cursada en CoderHouse en el curso de Desarrollo Web. Esta fue mi primera pagina realizada de manera profesionalmente. Los aspectos que mas rescato de este proyecto son:",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/David-Bowie-ProyectoFinal/home/index.html",
     imagen: DavidBowieHome,
-    description: "",
+    description: "Pagina Web con historia del artista David Bowie, discografia completa, historia completa, y imagenes de todas sus vestimentas a lo largo de su carrera",
     gif: GifBowie,
     gifClase: "gifLinkProyect",
     individualClase:"bowieGif"
@@ -27,7 +27,7 @@ const infoProyectos = [
     id: 2,
     claseLink: "queenPage",
     tituloProyecto: "Queen E-commerce",
-    description: "",
+    description: "Pagina Web con informacion de la Banda, incluye tienda para comprar sus discos, historia de cada integrante, y un modo oscuro que tambien afecta a las imagenes",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyectoFinalJS/",
     imagen: QueenHome,
     gif: GifQueen,
@@ -38,7 +38,7 @@ const infoProyectos = [
     id: 3,
     claseLink: "ayoPage",
     tituloProyecto: "Proyecto AYO",
-    description: "",
+    description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
     imagen: AyoHome,
     gif: GifAyo,
@@ -72,11 +72,16 @@ function Proyect() {
           <Link className={proyecto.gifClase + ' ' + proyecto.individualClase} key={proyecto.individualClase + i} to={rutaParametrizada + proyecto.id}>
             <img src={proyecto.gif} alt="" />
           </Link>
+          <div>
+          <Link className='titlePresentationProyect' key={proyecto.gifClase + i} to={rutaParametrizada + proyecto.id}>
+          <h1>{proyecto.tituloProyecto}</h1>
+          </Link>
+            <p className='textBodyPresentationProyect'>{proyecto.description}</p>
+          </div>
         </div>
       )
     })}
     </div>
-        <h1>Proyectos</h1>
     </section>
   );
 }

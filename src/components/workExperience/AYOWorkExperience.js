@@ -17,7 +17,7 @@ function AYOWorkExperience() {
       gif: GifHomeAYO,
       gifClase: "GifAYO"
     },
-      {
+    {
       imagen: ImagenSobreAYO,
       nombreClase: "ImagenSobreAYO",
       gif: GifSobreAYO,
