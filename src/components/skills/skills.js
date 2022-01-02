@@ -1,6 +1,5 @@
 import React from 'react';
 import './skills.css';
-import Header from '../navBar/NavBar'
 import Skill from './skill/Skill';
 import HtmlLogo from '../../images/icons/html.png';
 import CssLogo from '../../images/icons/css.png';
@@ -61,8 +60,7 @@ function Skills() {
     }
   ]
   return (
-    <div className="a">
-    <Header />
+    <div className="">
     <h1 className='skills_habilidadesTitle'>Skills & Habilidades</h1>
     <h2 className='skills_habilidadesSubTitle'>A continuación, les presento las herramientas de las cuales poseo conocimiento. También añadi el tiempo desde que estudio y trabajo (de manera autodidacta) con dichas herramientas </h2>
     <div className="skillsContainer">

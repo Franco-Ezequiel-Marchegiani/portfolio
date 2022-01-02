@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import './ProyectDetail.css';
 import DavidBowieHome from '../../images/proyectos/davidBowie/davidBowieHome.png'
 import DavidBowieDiscos from '../../images/proyectos/davidBowie/davidBowieDiscos.png'
@@ -10,6 +10,8 @@ import QueenCart from '../../images/proyectos/Queen/queenCart.png'
 import AyoHome from '../../images/proyectos/ayo/ayoHome.png'
 import AyoNoticias from '../../images/proyectos/ayo/ayoNoticias.png'
 import AyoResponsive from '../../images/proyectos/ayo/ayoResponsive.png'
+import ProyectDetailContent from './ProyectDetailContent';
+import AOS from 'aos'
 function ProyectDetail(props) {
   const infoProyectos = [
     {
@@ -51,31 +53,24 @@ function ProyectDetail(props) {
       imagen3: AyoNoticias,
       parrafo3: "Cuenta con mas de 5 ventanas en las cuales se visualiza informacion de la Fundacion :) Y tambien cuenta con acceso a las noticias en la pagina principal, las cuales son noticias verdaderas y cuentan con una pestaña especial para cada una"
     },
-    /* {
-      id: 4,
-      ituloProyecto: "AYO",
-      subTitle:"",
-      linkProyecto:"",
-      imagen1: "",
-      parrafo1: "",
-      imagen2: "",
-      parrafo2: "",
-      imagen3: "",
-      parrafo3: ""
-    }, */
   ]
+  AOS.init()
     //Permite extraer id de la URL
     const params = useParams();
     const id = Number(params.id);
 
-    //Colocar acá Array completo de los productos
-
+    //Colocar acá Array completo de los Proyectos
     let proyectoSeleccionado = infoProyectos.find(proyecto => proyecto.id === id)
-    console.log(proyectoSeleccionado);
   return (
-    <section className="">
-    <h1>Hola</h1>
-    <h2>{proyectoSeleccionado.tituloProyecto}</h2>
+    <section className='proyectDetailContainer'>
+      <div className='contenedorTitulosProyectDetail' data-aos="zoom-in" data-aos-duration="1500">
+      <h1>{proyectoSeleccionado.tituloProyecto}</h1>
+      <h2>{proyectoSeleccionado.subTitle}</h2>
+      </div>
+      <ProyectDetailContent claseContenedora="bloquePrincipalProyectDetail bloqueProyectDetail" claseParrafo="parrafoPrincipalProyectDetail parrafoProyectDetail" claseImage="imagenPrincipalProyectDetail imagenProyectDetail" imagen={proyectoSeleccionado.imagen1} texto={proyectoSeleccionado.parrafo1} animation="fade-up" duracionAnimacion="1500"/>
+      <ProyectDetailContent claseContenedora="segundoBloqueProyectDetail bloqueProyectDetail" claseParrafo="segundoParrafoProyectDetail parrafoProyectDetail" claseImage="segundaImagenProyectDetail imagenProyectDetail" imagen={proyectoSeleccionado.imagen2} texto={proyectoSeleccionado.parrafo2} animation="fade-right" duracionAnimacion="2000"/>
+      <ProyectDetailContent claseContenedora="tercerBloqueProyectDetail bloqueProyectDetail" claseParrafo="tercerParrafoProyectDetail parrafoProyectDetail" claseImage="terceraImagenProyectDetail imagenProyectDetail" imagen={proyectoSeleccionado.imagen3} texto={proyectoSeleccionado.parrafo3} animation="fade-left" duracionAnimacion="2000"/>
+      <Link to={proyectoSeleccionado.linkProyecto} className='linkProyectDetail'>Ver proyecto completa</Link>
     </section>
   );
 }

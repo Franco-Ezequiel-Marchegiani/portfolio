@@ -18,6 +18,12 @@
 .skillLogo{
     max-width: 200px;
     max-height: 200px;
+    transition: all 250ms ease;
+}
+.skillLogo:hover{
+    transform: scale(1.11);
+    transition: all 250ms ease;
+    cursor: pointer;
 }
 .experiencieSkill{
     padding: 20px 0 40px 0;

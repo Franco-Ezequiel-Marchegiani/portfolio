@@ -31,7 +31,7 @@ function AYOWorkExperience() {
     } 
   ]
   return (
-    <section>
+    <section className='containerGlobalAYOWorkExperience'>
       <h1 className='titleWorkExperienceAYO'>Fundación AYO</h1>
       <p className='paragraphWorkExperienceAYO'>Trabaje para la Fundacion AYO en la creacion del re-diseño de su pagina web, actualmente la pagina original tuvo algunas modificaciones ya que re-diseñaron algunos aspectos y pasaron la pagina a Wordpress, pero de todos modos lo que realice en dicha pagina aun perdura en mi repositorio de github el cual podran acceder con el 
       

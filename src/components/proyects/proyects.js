@@ -10,6 +10,7 @@ import AyoHome from '../../images/proyectos/ayo/ayoHome.png';
 import GifBowie from '../../images/proyectos/davidBowie/dbGifPresentation.gif';
 import GifQueen from '../../images/proyectos/Queen/queenGifPresentation.gif';
 import GifAyo from '../../images/proyectos/ayo/gifHome.gif';
+import AOS from 'aos';
 const infoProyectos = [
   {
     id: 1,
@@ -47,6 +48,7 @@ const infoProyectos = [
   }
 ]
 function Proyect() {
+  AOS.init()
   const rutaParametrizada = "/ProyectDetail/"
   //Y acá colocar el array de SOLO los títulos de los proyectos y su imagen
 
@@ -65,7 +67,7 @@ function Proyect() {
     <div className='proyectsImageContainer'>
     {infoProyectos.map((proyecto, i) =>{
       return(
-        <div key={proyecto + i} className='imageProyect'>
+        <div key={proyecto + i} className='imageProyect' data-aos="fade-up" data-aos-duration="1500">
           <Link className='imageLinkProyect' key={proyecto.gifClase + i} to={rutaParametrizada + proyecto.id}>
             <img src={proyecto.imagen} alt="" />
           </Link>

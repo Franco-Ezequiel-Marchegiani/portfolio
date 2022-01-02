@@ -71,6 +71,8 @@ function CoderHouseWorkExp() {
     return (
     <section>
       <WorkExperience_dw feedBackDW={webDeveloper}/>
+      <hr />
+      <hr />
       <WorkExperience_js feedBackJS={javascript}/>
       <hr />
       <hr />
