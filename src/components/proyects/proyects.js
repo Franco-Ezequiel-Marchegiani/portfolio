@@ -55,14 +55,14 @@ function Proyect() {
   return (
     <section className="">
     <div className='proyectsLinks'>
-    <h1 className='titleProyectos'>Proyectos</h1>
-      <nav className='proyectLinksContainer'>
-          {infoProyectos.map((proyecto, i) =>{
-            return(
-                <Link className={proyecto.claseLink} key={proyecto + i} to={rutaParametrizada + proyecto.id}>{proyecto.tituloProyecto}</Link>
-            )
-          })}
-        </nav>
+      <h1 className='titleProyectos'>Proyectos</h1>
+        <nav className='proyectLinksContainer'>
+            {infoProyectos.map((proyecto, i) =>{
+              return(
+                  <Link className={proyecto.claseLink} key={proyecto + i} to={rutaParametrizada + proyecto.id}>{proyecto.tituloProyecto}</Link>
+              )
+            })}
+          </nav>
     </div>
     <div className='proyectsImageContainer'>
     {infoProyectos.map((proyecto, i) =>{

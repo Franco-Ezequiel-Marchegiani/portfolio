@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AboutMe from "./components/aboutMe/aboutMe";
 import Contact from "./components/contact/contact";
-import Proyect from "./components/proyects/proyects";
+import Proyect from "./components/proyects/Proyects";
 import Skills from "./components/skills/skills";
 import WorkExperience from "./components/workExperience/WorkExperience";
 import NavBar from './components/navBar/NavBar';
