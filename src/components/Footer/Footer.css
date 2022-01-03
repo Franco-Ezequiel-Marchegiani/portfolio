@@ -1,7 +1,9 @@
+footer{
+    background-color: rgb(248,249,250);
+}
 .FooterContainer{
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(248,249,250);
     flex-direction: column;
 }
 .mailTextFooter{
@@ -13,27 +15,38 @@
     flex-direction: column;
     align-items: center;
 }
+.iconFooter{
+    color: black;
+}
+.mailIcon:hover{
+    color: 	#c71610;
+}
+.linkedinIcon:hover{
+    color: #0077B5;
+}
+.githubIcon:hover{
+    color: #211F1F;
+}
 .fa-envelope{
     font-size: 40px;
-    padding: 20px 0 8px;
+    padding: 40px 0 40px;
 }
 .fa-github{
     font-size: 40px;
-    padding: 20px 0 8px;
+    padding: 40px 0 40px;
 }
-.fa-github-alt{
+.fa-linkedin{
     font-size: 40px;
-    padding: 20px 0 8px;
-}
-.githubTextFooter{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
+    padding: 40px 0 40px;
 }
 .FooterContainer div p{
     font-weight: 500;
 }
-
+.textDownFooter{
+    margin: 0;
+    padding: 8px 0 36px 0;
+    text-align: center;
+}
 @media only screen and (min-width: 768px){
     .FooterContainer{
         flex-direction: row;

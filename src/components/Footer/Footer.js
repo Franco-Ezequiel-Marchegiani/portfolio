@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 function Footer() {
   return (
-    <footer className="FooterContainer">
+    <footer>
+      <div className="FooterContainer">
         <div>
-        <i className="fas fa-envelope"></i>
-            <p className='mailTextFooter'>francoezequielmarchegiani2019@gmail.com</p>
+        <a className='iconFooter mailIcon' href="mailto:francoezequielmarchegiani2019@gmail.com"><i className="fas fa-envelope"></i></a>
         </div>
         <div>
-        <i className="fab fa-github"></i>
-            <Link className='githubTextFooter' to="//github.com/Franco-Ezequiel-Marchegiani" target="_blank" rel="noopener noreferrer">GitHub</Link>
+            <Link className='iconFooter linkedinIcon' to="//github.com/Franco-Ezequiel-Marchegiani" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></Link>
         </div>
         <div>
-        <i className="fab fa-github-alt"></i>
-            <p className='GithubPortfolioTextFooter'>Github Portfolio</p>
+        <Link className='iconFooter githubIcon' to="//github.com/Franco-Ezequiel-Marchegiani" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></Link>
         </div>
+      </div>
+        <p className='textDownFooter'>Sitio Web hecho utilizando React.JS © 2022 Franco Ezequiel Marchegiani</p>
     </footer>
   );
 }
