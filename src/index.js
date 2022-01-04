@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AboutMe from "./components/aboutMe/aboutMe";
 import Contact from "./components/contact/contact";
 import Proyect from "./components/proyects/Proyects";
 import Skills from "./components/skills/skills";
@@ -21,7 +20,6 @@ ReactDOM.render(
     <NavBar/>
       <Routes>
       <Route path="/" exact={true} element={<App/>}/>
-        <Route path="/AboutMe" exact={true} element={<AboutMe/>}/>
         <Route path="/Contact" exact={true} element={<Contact/>}/>
         <Route path="/Proyects" exact={true} element={<Proyect/> }/>
         <Route path="/Skills" exact={true} element={<Skills/> }/>

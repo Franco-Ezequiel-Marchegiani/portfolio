@@ -4,24 +4,31 @@
     justify-content: center;
 }
 .linkWorkExperience{
-    padding: 80px 20px 40px;
+    padding: 60px 20px 40px;
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 26px;
+    font-weight: 500;
 }
 .workExperiencieTitlePresentation{
     text-align: center;
     padding-top: 60px;
+    font-size: 48px;
+    font-weight: 600;
 }
 .workExperiencieSubtitlePresentation{
     padding: 40px 0 20px;
     text-align: center;
+    font-size: 48px;
+    font-weight: 600;
 }
 .workExperiencieParagraph{
     max-width: 75%;
     text-align: center;
     margin: auto;
     padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
 }
 /* AYO Work Experience */
 .containerGlobalAYOWorkExperience{
@@ -30,18 +37,24 @@
 .titleWorkExperienceAYO{
     padding-top: 20px;
     text-align: center;
+    font-size: 48px;
+    font-weight: 600;
 }
 .paragraphWorkExperienceAYO{
     max-width: 75%;
     margin: auto;
     text-align: center;
     padding: 20px 0 32px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .secondParagraphWorkExperienceAYO{
-    max-width: 80%;
+    max-width: 75%;
     margin: auto;
     text-align: center;
     padding: 0px 0 40px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .wrapper{
     display: flex;
@@ -80,11 +93,14 @@
     color: black;
     font-weight: 500;
     padding-left: 4px;
+    font-weight: 700;
 }
 /* Work Experience DW & JS */
 .sectionTitle{
     padding-top: 40px;
     text-align: center;
+    font-size: 48px;
+    font-weight: 500;
 }
 .linkImage{
     text-align: center;

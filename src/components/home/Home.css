@@ -1,12 +1,13 @@
 
 .body{
     background-image: url('../../images/portada_celular.jpg');
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: 50% 50%;
     position: relative;
     background-color: #000;
     box-sizing: border-box;
+    height: 100%;
 }
 .body:before {
 	content:'';
@@ -18,34 +19,42 @@
 	background-color: rgba(0,0,0,0.6);
 }
 .textContainer{
-    width: 100vw;
-    height: 100vh;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
+    margin: auto;
 }
 .titleHome{
-    color: white;
-    text-align: center;
+    color: #f9f9f9;
+    text-align: start;
 }
-.subTitle{
-    margin: 8px 0 20px 0;
+.spanTitleHome{
+    display: block;
 }
-.textHome{
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    max-width: 70%;
-    margin: 8px 0 32px 0;
-    animation: fadeIn;
-    animation-duration: 3500ms;
+.myNameHome{
+    color: #f9f9f9;
+    padding: 64px 0 8px;
+}
+.lineHome{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 60%
+}
+.parrafoHome{
+    color: #f9f9f9;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.segundoParrafoHome{
+    padding-bottom: 40px;
 }
 .btn-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    padding-bottom: 40px;
 }
 .btn-home{
   align-items: center;
@@ -98,20 +107,44 @@
 @media only screen and (min-width: 1200px) {
     .body{
         background-image: url('../../images/portada.jpg');
+        height: 100vh;
+    }
+    .body:before {
+        background-color: rgba(0,0,0,0.3);
+    }
+    .parrafoHome{
+        max-width: 85%;
+        margin: initial;
+        padding-left: 20px;
+        font-size: 20px;
     }
     .titleHome{
-        font-size: 44px;
+        font-size: 92px;
+        font-weight: 700;
     }
-    .subTitle{
-        font-size: 36px;
-    }
-    .textHome{
-        font-size: 18px;
+    .myNameHome{
+        padding-bottom: 0;
+        font-size: 22px;
     }
     .btn-container{
         flex-direction: row;
     }
     .btn-home{
         margin: 8px 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .body{
+        height: 100vh;
+    }
+    .parrafoHome{
+        max-width: 80%;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .body{
+        height: 90vh;
     }
 }

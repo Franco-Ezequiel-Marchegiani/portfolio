@@ -34,7 +34,6 @@ function AYOWorkExperience() {
     <section className='containerGlobalAYOWorkExperience'>
       <h1 className='titleWorkExperienceAYO'>Fundación AYO</h1>
       <p className='paragraphWorkExperienceAYO'>Trabaje para la Fundacion AYO en la creacion del re-diseño de su pagina web, actualmente la pagina original tuvo algunas modificaciones ya que re-diseñaron algunos aspectos y pasaron la pagina a Wordpress, pero de todos modos lo que realice en dicha pagina aun perdura en mi repositorio de github el cual podran acceder con el 
-      
       <Link className='linkFundacionAYO' to="//franco-ezequiel-marchegiani.github.io/proyecto-AYO/index.html" target="_blank" rel="noopener noreferrer">siguiente link</Link></p>
     <p className='secondParagraphWorkExperienceAYO'> Si bien esto ya lo mencione en la seccion de "proyectos", tambien lo coloco en experiencia laboral ya que fue el primer trabajo freelance y contacto con el mundo laboral que tuve, trabajando con un profesional del area UX/UI. Y aunque lo que realice no haya perdurado como proyecto final, me llevo muchas enseñanzas, experiencias y lecciones del tiempo en el que trabaje en este proyecto
     </p>

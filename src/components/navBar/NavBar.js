@@ -15,9 +15,6 @@ function NavBar() {
             </Nav>
               <Nav className="justify-content-end" activeKey="/home">
                 <Nav.Item>
-                  <Nav.Link><Link className="link-navbar" to="/AboutMe">Acerca de mí</Link> </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
                   <Nav.Link><Link className="link-navbar" to="/Skills">Skills & habilidades</Link></Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
