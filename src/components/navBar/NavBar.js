@@ -34,6 +34,10 @@ function NavBar() {
               </Nav>
           </Navbar.Collapse>
         </Container>
+        <div>
+          <BsSun/>
+          <BsMoonStars/>
+        </div>
       </Navbar>
     </nav>
   );
