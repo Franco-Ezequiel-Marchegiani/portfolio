@@ -1,9 +1,9 @@
 import React from 'react';
-import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import Logo from '../../images/icons/react-dark.png'
 import './navBar.css';
-import { BsSun, BsMoonStars } from "react-icons/bs";
+import Logo from '../../images/icons/react-dark.png'
+import Darkmode from '../darkmode/Darkmode';
+import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 function NavBar() {
   /* Next and last step make the Night mode */
   return (
@@ -34,10 +34,7 @@ function NavBar() {
               </Nav>
           </Navbar.Collapse>
         </Container>
-        <div>
-          <BsSun/>
-          <BsMoonStars/>
-        </div>
+        <Darkmode/>
       </Navbar>
     </nav>
   );
