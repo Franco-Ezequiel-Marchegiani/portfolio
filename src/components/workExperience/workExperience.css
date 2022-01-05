@@ -7,19 +7,19 @@
     padding: 60px 20px 40px;
     text-decoration: none;
     color: var(--text-color);
-    font-size: 26px;
+    font-size: 16px;
     font-weight: 500;
 }
 .workExperiencieTitlePresentation{
     text-align: center;
     padding-top: 60px;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 600;
 }
 .workExperiencieSubtitlePresentation{
     padding: 40px 0 20px;
     text-align: center;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 600;
 }
 .workExperiencieParagraph{
@@ -37,7 +37,7 @@
 .titleWorkExperienceAYO{
     padding-top: 20px;
     text-align: center;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 600;
 }
 .paragraphWorkExperienceAYO{
@@ -99,7 +99,7 @@
 .sectionTitle{
     padding-top: 40px;
     text-align: center;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 500;
 }
 .linkImage{
@@ -127,6 +127,21 @@
 }
 
 @media only screen and (min-width: 768px){
+    .workExperiencieTitlePresentation{
+        font-size: 48px;
+    }
+    .linkWorkExperience{
+        font-size: 26px;
+    }
+    .workExperiencieSubtitlePresentation{
+        font-size: 48px;
+    }
+    .sectionTitle{
+        font-size: 48px;
+    }
+    .titleWorkExperienceAYO{
+        font-size: 48px;
+    }
     .imageFeedback{
         max-width: 65%;
     }

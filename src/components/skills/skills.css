@@ -7,7 +7,7 @@
 .skills_habilidadesTitle{
     text-align: center;
     padding-top: 80px;
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 600;
 }
 .skills_habilidadesSubTitle{
@@ -15,5 +15,13 @@
     max-width: 70%;
     margin: auto;
     padding-top: 40px;
+    font-size: 20px;
+}
+@media only screen and (min-width: 768px){
+    .skills_habilidadesTitle{
+        font-size: 48px;
+    }
+    .skills_habilidadesSubTitle{
     font-size: 24px;
+    }
 }

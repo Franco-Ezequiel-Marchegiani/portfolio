@@ -2,7 +2,7 @@
     text-align: center;
     padding-top: 20px;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 28px;
 }
 .proyectLinksContainer{
     display: flex;
@@ -16,7 +16,7 @@
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     transition: all 250ms ease;
 }
 .proyectLinksContainer > *{
@@ -105,13 +105,17 @@
     font-size: 17px;
 }
 @media only screen and (min-width: 768px){
-    /* YA HICE RESPONSIVE LO MÁS PEQUEÑO, SEGUIR DESDE ACÁ Y RESCATAR LO COMENTADO DE ARRIBA
-    PARA SEGUIR HACIENDO RESPONSIVE */
+    .titleProyectos{
+        font-size: 48px;
+    }
     .proyectLinksContainer{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: row;
+    }
+    .proyectLinksContainer > *{
+        font-size: 24px;
     }
     .proyectLinksContainer > *::after{
         content: "|";

@@ -32,9 +32,11 @@ function NavBar() {
                   <Nav.Link><Link className="link-navbar" to="/Contact">Contacto</Link></Nav.Link>
                 </Nav.Item>
               </Nav>
+              <Darkmode/>
           </Navbar.Collapse>
+          
         </Container>
-        <Darkmode/>
+        
       </Navbar>
     </nav>
   );
