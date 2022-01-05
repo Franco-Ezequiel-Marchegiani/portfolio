@@ -32,6 +32,7 @@
     max-width: 70%;
     text-align: center;
     color: var(--text-color);
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 @media only screen and (min-width: 540px){

@@ -8,7 +8,7 @@ function NavBar() {
   /* Next and last step make the Night mode */
   return (
     <nav className='navBar-Container'>
-      <Navbar bg="light" expand="lg" >
+      <Navbar expand="lg" >
         <Container fluid>
           <Navbar.Brand><Link className="link-navbar" to="/"><img className="logoNavBar" src={Logo} alt="Logo Navbar" /></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

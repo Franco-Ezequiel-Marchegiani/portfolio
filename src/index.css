@@ -16,7 +16,7 @@ body {
 }
 /* Variables CSS */
 :root{
-  --black: rgb(9, 9, 9);
+  --black: #222;
   --white: rgb(249, 249, 249);
 }
 body.light{
