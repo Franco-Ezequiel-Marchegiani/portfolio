@@ -19,7 +19,7 @@ ReactDOM.render(
     <BrowserRouter>
     <NavBar/>
       <Routes>
-      <Route path="/" exact={true} element={<App/>}/>
+      <Route path="/portfolio" exact={true} element={<App/>}/>
         <Route path="/Contact" exact={true} element={<Contact/>}/>
         <Route path="/Proyects" exact={true} element={<Proyect/> }/>
         <Route path="/Skills" exact={true} element={<Skills/> }/>

@@ -19,11 +19,11 @@
 .contenedorIconosContacto{
     display: flex;
     flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .iconContact{
-    font-size: 80px;
+    font-size: 40px;
     padding: 4px 0;
     color: var(--text-color);
 }
@@ -61,6 +61,9 @@
     }
     .parrafoContacto{
         font-size: 22px;
+    }
+    .iconContact{
+        font-size: 80px;
     }
     .contenedorIconosContacto{
         flex-direction: row;

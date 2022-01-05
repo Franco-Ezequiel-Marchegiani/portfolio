@@ -1,6 +1,6 @@
 {
-  "homepage": "https://franco-ezequiel-marchegiani.github.io/portfolio/",
-  "name": "porfolio",
+  "homepage": "https://franco-ezequiel-marchegiani.github.io/",
+  "name": "franco-ezequiel-marchegiani-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
