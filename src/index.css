@@ -10,7 +10,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(249, 249, 249);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 /* Variables CSS */
 :root{
@@ -20,13 +22,11 @@ body {
 body.light{
   --background-color: var(--white);
   --text-color: var(--black);
-  --font-weight: 400;
-  --image: url("./images/icons/daySunny.png");
+  --image: url("./images/icons/iconMoon.png");
 }
 body.dark{
   --background-color: var(--black);
   --text-color: var(--white);
-  --font-weight: 400;
   --image: url("./images/icons/daySunny.png");
 }
 h1{
