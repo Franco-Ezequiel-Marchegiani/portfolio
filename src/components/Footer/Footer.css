@@ -1,5 +1,6 @@
 footer{
-    background-color: rgb(248,249,250);
+    background-color: var(--background-color);
+    transition: background-color 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 .FooterContainer{
     display: flex;
@@ -16,7 +17,7 @@ footer{
     align-items: center;
 }
 .iconFooter{
-    color: black;
+    color: var(--text-color);
 }
 .mailIcon:hover{
     color: 	#c71610;
@@ -25,7 +26,7 @@ footer{
     color: #0077B5;
 }
 .githubIcon:hover{
-    color: #211F1F;
+    color: #888888;
 }
 .fa-envelope{
     font-size: 40px;
