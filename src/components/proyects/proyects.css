@@ -14,7 +14,7 @@
 .proyectLinksContainer > *{
     padding: 8px 0;
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     font-weight: 500;
     font-size: 24px;
     transition: all 250ms ease;
@@ -22,7 +22,7 @@
 .proyectLinksContainer > *{
     padding: 8px 0;
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     font-weight: 700;
     transition: all 250ms ease;
 }

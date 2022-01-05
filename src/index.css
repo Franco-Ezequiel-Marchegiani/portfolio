@@ -30,19 +30,19 @@ body.dark{
   --image: url("./images/icons/daySunny.png");
 }
 h1{
-  color: rgb(9, 9, 9);
+  color: var(--text-color);
 }
 h2{
-  color: #090909;
+  color: var(--text-color);
 }
 h3{
-  color: #090909;
+  color: var(--text-color);
 }
 h4{
-  color: #090909;
+  color: var(--text-color);
 }
 p{
-  color: #090909;
+  color: var(--text-color);
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

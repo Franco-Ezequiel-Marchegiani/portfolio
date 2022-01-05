@@ -6,7 +6,7 @@
 .linkWorkExperience{
     padding: 60px 20px 40px;
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     font-size: 26px;
     font-weight: 500;
 }
