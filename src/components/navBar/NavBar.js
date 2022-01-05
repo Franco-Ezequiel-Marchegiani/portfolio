@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navBar.css';
-import Logo from '../../images/icons/react-dark.png'
 import Darkmode from '../darkmode/Darkmode';
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 function NavBar() {
