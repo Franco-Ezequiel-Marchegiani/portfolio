@@ -1,15 +1,73 @@
+.tituloContacto{
+    text-align: center;
+    padding: 40px 0 40px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.parrafoContacto{
+    text-align: center;
+    font-size: 18px;
+    max-width: 75%;
+    margin: auto;
+}
+.ultimoParrafoContacto{
+    padding-bottom: 40px;
+}
 .contactContainer{
-    height: 75vh;
+    height: 100vh;
 }
 .contenedorIconosContacto{
+    display: flex;
+    flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
 }
 .iconContact{
     font-size: 80px;
+    padding: 4px 0;
+    color: var(--text-color);
+}
+.fa-whatsapp{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.fa-whatsapp:hover{
+    color: #25D366;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.fa-envelope-open-text{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.fa-envelope-open-text:hover{
+    color: #c71610;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.fa-linkedin-in{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.fa-linkedin-in:hover{
+    color: #0077B5;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.portfolioIcon{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.portfolioIcon:hover{
+    color: linear-gradient(45deg, #00aeff, #987cfd);
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+@media only screen and (min-width: 600px){
+    .tituloContacto{
+        font-size: 48px;
+    }
+    .parrafoContacto{
+        font-size: 22px;
+    }
+    .contenedorIconosContacto{
+        flex-direction: row;
+    }
 }
 @media only screen and (min-width: 1200px){
-    .contenedorIconosContacto{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+    .contactContainer{
+        height: 75vh;
     }
 }

@@ -20,14 +20,26 @@ footer{
 .iconFooter{
     color: var(--text-color);
 }
+.mailIcon{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
 .mailIcon:hover{
     color: 	#c71610;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.linkedinIcon{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 .linkedinIcon:hover{
     color: #0077B5;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.githubIcon{
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 .githubIcon:hover{
     color: #888888;
+    transition: 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 .fa-envelope{
     font-size: 40px;
