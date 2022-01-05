@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../../images/icons/react-dark.png'
 import './navBar.css';
 function NavBar() {
+  /* Next and last step make the Night mode */
   return (
     <nav className='navBar-Container'>
       <Navbar bg="light" expand="lg" >
