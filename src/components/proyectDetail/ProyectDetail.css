@@ -37,7 +37,7 @@
 .linkProyectDetail{
     text-decoration: none;
     font-size: 24px;
-    color: black;
+    color: var(--text-color);
     transition: all 250ms ease;
     text-align: center;
     display: flex;
