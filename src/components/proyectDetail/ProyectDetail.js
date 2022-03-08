@@ -77,7 +77,7 @@ function ProyectDetail(props) {
       imagen2: AyoResponsive,
       parrafo2: "La página consiste en mostrar trabajos disponibles, cuenta con dos barras de búsquedas completamente funcionales, y también un filtro para aquellos trabajos que son Full-Time o de tiempo completo",
       imagen3: AyoNoticias,
-      parrafo3: "Por otro lado, como un pequeño detalle, la misma también cuenta con traducción al Inglés, los idiomas que cuenta la página son Español (Default/defecto) e Inglés, el usuario puede preferír el idioma que desee y la página se adaptará al mismo"
+      parrafo3: "También, cuenta con la vista del detalle del puesto de trabajo el cual cuenta en detalle información del puesto, qué requisitos se necesita, los beneficios que incluye, etc. En esta sección es información 100% recolectada de la API la cual utilicé para dicho proyecto"
     }
   ]
   AOS.init()
