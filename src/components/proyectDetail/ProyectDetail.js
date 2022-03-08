@@ -65,6 +65,19 @@ function ProyectDetail(props) {
       parrafo2: "La misma cuenta con una barra de búsqueda completamente funcional, y según la localidad seleccionada, la información del clima se actualizará en cuestión de segundos :)",
       imagen3: AyoNoticias,
       parrafo3: "Por otro lado, como un pequeño detalle, la misma también cuenta con traducción al Inglés, los idiomas que cuenta la página son Español (Default/defecto) e Inglés, el usuario puede preferír el idioma que desee y la página se adaptará al mismo"
+    },
+    {
+      id: 5,
+      claseLink: "githubJobs",
+      tituloProyecto: "Github Jobs",
+      subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
+      linkProyecto:"//github.com/Franco-Ezequiel-Marchegiani/challenge-weatherReport",
+      imagen1: AyoHome,
+      parrafo1: "Esta aplicación fue hecha 100% Utilizando React, el diseño y herramientas fueron brindadas por parte de Dev-Challenges. Consiste en hacer un llamado a una API, la cual brinda el clima de diversas localidades en los próximos 5 días.",
+      imagen2: AyoResponsive,
+      parrafo2: "La misma cuenta con una barra de búsqueda completamente funcional, y según la localidad seleccionada, la información del clima se actualizará en cuestión de segundos :)",
+      imagen3: AyoNoticias,
+      parrafo3: "Por otro lado, como un pequeño detalle, la misma también cuenta con traducción al Inglés, los idiomas que cuenta la página son Español (Default/defecto) e Inglés, el usuario puede preferír el idioma que desee y la página se adaptará al mismo"
     }
   ]
   AOS.init()
