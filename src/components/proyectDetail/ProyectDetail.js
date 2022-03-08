@@ -71,7 +71,7 @@ function ProyectDetail(props) {
       claseLink: "githubJobs",
       tituloProyecto: "Github Jobs",
       subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
-      linkProyecto:"//github.com/Franco-Ezequiel-Marchegiani/challenge-weatherReport",
+      linkProyecto:"//github-jobs-proyect.firebaseapp.com",
       imagen1: AyoHome,
       parrafo1: "Esta aplicación fue hecha 100% Utilizando React, el diseño y herramientas fueron brindadas por parte de Dev-Challenges. Consiste en hacer un llamado a una API, la cual brinda el clima de diversas localidades en los próximos 5 días.",
       imagen2: AyoResponsive,
