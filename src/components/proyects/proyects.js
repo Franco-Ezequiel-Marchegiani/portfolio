@@ -53,7 +53,7 @@ const infoProyectos = [
   {
     id: 4,
     claseLink: "ayoPage",
-    tituloProyecto: "Proyecto AYO",
+    tituloProyecto: "Weather App",
     description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
     imagen: WeaterHome,
@@ -64,7 +64,7 @@ const infoProyectos = [
   {
     id: 5,
     claseLink: "ayoPage",
-    tituloProyecto: "Proyecto AYO",
+    tituloProyecto: "Github Jobs",
     description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
     imagen: GitHubJobsHome,
