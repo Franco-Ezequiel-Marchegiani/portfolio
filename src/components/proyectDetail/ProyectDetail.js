@@ -64,7 +64,7 @@ function ProyectDetail(props) {
       imagen2: AyoResponsive,
       parrafo2: "La misma cuenta con una barra de búsqueda completamente funcional, y según la localidad seleccionada, la información del clima se actualizará en cuestión de segundos :)",
       imagen3: AyoNoticias,
-      parrafo3: "Cuenta con mas de 5 ventanas en las cuales se visualiza informacion de la Fundacion :) Y tambien cuenta con acceso a las noticias en la pagina principal, las cuales son noticias verdaderas y cuentan con una pestaña especial para cada una"
+      parrafo3: "Por otro lado, como un pequeño detalle, la misma también cuenta con traducción al Inglés, los idiomas que cuenta la página son Español (Default/defecto) e Inglés, el usuario puede preferír el idioma que desee y la página se adaptará al mismo"
     }
   ]
   AOS.init()
