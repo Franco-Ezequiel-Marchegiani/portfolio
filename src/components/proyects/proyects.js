@@ -70,7 +70,7 @@ const infoProyectos = [
     imagen: GitHubJobsHome,
     gif: GifGitHubJobs,
     gifClase: "gifLinkProyect",
-    individualClase:"ayoGif"
+    individualClase:"githubJobsGif"
   }
 ]
 function Proyect() {
