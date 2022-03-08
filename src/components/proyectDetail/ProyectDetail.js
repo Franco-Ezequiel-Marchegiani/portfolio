@@ -75,7 +75,7 @@ function ProyectDetail(props) {
       imagen1: AyoHome,
       parrafo1: "Esta página se creó utilizando React Js en su funcionamiento, y se utilizó Firebase para subirlo a un servidor, el sketch del diseño fue brindado por Dev-Challenges, el cual me encargué de plasmarlo al código en detalle. La página también realiza un llamado hacia una API para recolectar la información de cada puesto de trabajo.",
       imagen2: AyoResponsive,
-      parrafo2: "La misma cuenta con una barra de búsqueda completamente funcional, y según la localidad seleccionada, la información del clima se actualizará en cuestión de segundos :)",
+      parrafo2: "La página consiste en mostrar trabajos disponibles, cuenta con dos barras de búsquedas completamente funcionales, y también un filtro para aquellos trabajos que son Full-Time o de tiempo completo",
       imagen3: AyoNoticias,
       parrafo3: "Por otro lado, como un pequeño detalle, la misma también cuenta con traducción al Inglés, los idiomas que cuenta la página son Español (Default/defecto) e Inglés, el usuario puede preferír el idioma que desee y la página se adaptará al mismo"
     }
