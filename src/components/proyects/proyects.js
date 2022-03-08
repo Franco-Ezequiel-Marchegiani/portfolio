@@ -59,7 +59,7 @@ const infoProyectos = [
     imagen: WeaterHome,
     gif: GifWeatherReport,
     gifClase: "gifLinkProyect",
-    individualClase:"ayoGif"
+    individualClase:"weatherGif"
   },
   {
     id: 5,
