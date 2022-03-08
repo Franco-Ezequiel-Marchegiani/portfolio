@@ -70,7 +70,7 @@ function ProyectDetail(props) {
       <ProyectDetailContent claseContenedora="bloquePrincipalProyectDetail bloqueProyectDetail" claseParrafo="parrafoPrincipalProyectDetail parrafoProyectDetail" claseImage="imagenPrincipalProyectDetail imagenProyectDetail" imagen={proyectoSeleccionado.imagen1} texto={proyectoSeleccionado.parrafo1} animation="fade-up" duracionAnimacion="1500"/>
       <ProyectDetailContent claseContenedora="segundoBloqueProyectDetail bloqueProyectDetail" claseParrafo="segundoParrafoProyectDetail parrafoProyectDetail" claseImage="segundaImagenProyectDetail imagenProyectDetail" imagen={proyectoSeleccionado.imagen2} texto={proyectoSeleccionado.parrafo2} animation="fade-right" duracionAnimacion="2000"/>
       <ProyectDetailContent claseContenedora="tercerBloqueProyectDetail bloqueProyectDetail" claseParrafo="tercerParrafoProyectDetail parrafoProyectDetail" claseImage="terceraImagenProyectDetail imagenProyectDetail" imagen={proyectoSeleccionado.imagen3} texto={proyectoSeleccionado.parrafo3} animation="fade-left" duracionAnimacion="2000"/>
-      <Link to={proyectoSeleccionado.linkProyecto} className='linkProyectDetail'>Ver proyecto completa</Link>
+      <Link to={proyectoSeleccionado.linkProyecto} className='linkProyectDetail'>Ver página completa</Link>
     </section>
   );
 }
