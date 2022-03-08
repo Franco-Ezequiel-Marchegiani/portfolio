@@ -11,6 +11,10 @@ import QueenCart from '../../images/proyectos/Queen/queenCart.png';
 import AyoHome from '../../images/proyectos/ayo/ayoHome.png';
 import AyoNoticias from '../../images/proyectos/ayo/ayoNoticias.png';
 import AyoResponsive from '../../images/proyectos/ayo/ayoResponsive.png';
+
+import WeatherHome from '../../images/proyectos/weatherReport/portadaAppClima.png';
+import WeatherSecond from '../../images/proyectos/weatherReport/appClima1.png';
+import WeatherThird from '../../images/proyectos/weatherReport/appClima2.png';
 import AOS from 'aos'
 function ProyectDetail(props) {
   const infoProyectos = [
