@@ -65,7 +65,7 @@ const infoProyectos = [
     tituloProyecto: "Proyecto AYO",
     description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
-    imagen: AyoHome,
+    imagen: GitHubJobsHome,
     gif: GifAyo,
     gifClase: "gifLinkProyect",
     individualClase:"ayoGif"
