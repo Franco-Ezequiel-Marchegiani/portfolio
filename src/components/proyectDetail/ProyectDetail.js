@@ -62,7 +62,7 @@ function ProyectDetail(props) {
       imagen1: AyoHome,
       parrafo1: "Esta aplicación fue hecha 100% Utilizando React, el diseño y herramientas fueron brindadas por parte de Dev-Challenges. Consiste en hacer un llamado a una API, la cual brinda el clima de diversas localidades en los próximos 5 días.",
       imagen2: AyoResponsive,
-      parrafo2: "La pagina cuenta con un diseño y estructura la cual le permite ser 100% responsive",
+      parrafo2: "La misma cuenta con una barra de búsqueda completamente funcional, y según la localidad seleccionada, la información del clima se actualizará en cuestión de segundos :)",
       imagen3: AyoNoticias,
       parrafo3: "Cuenta con mas de 5 ventanas en las cuales se visualiza informacion de la Fundacion :) Y tambien cuenta con acceso a las noticias en la pagina principal, las cuales son noticias verdaderas y cuentan con una pestaña especial para cada una"
     }
