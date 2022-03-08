@@ -65,7 +65,7 @@ const infoProyectos = [
     id: 5,
     claseLink: "githubJobs",
     tituloProyecto: "Github Jobs",
-    description: "",
+    description: "Página Web para conseguir trabajo con funcionalidad, herramientas actualizadas y con un excelente diseño de UX/UI",
     linkProyecto:"//github-jobs-proyect.firebaseapp.com/",
     imagen: GitHubJobsHome,
     gif: GifGitHubJobs,
