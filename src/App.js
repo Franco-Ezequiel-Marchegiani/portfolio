@@ -1,5 +1,5 @@
 import React from 'react';
-import "./app.css"
+import "./App.css"
 import 'animate.css';
 import Home from './components/home/Home';
 import Skills from './components/skills/skills';
