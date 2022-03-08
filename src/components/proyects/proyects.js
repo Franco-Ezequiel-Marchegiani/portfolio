@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom';
 import DavidBowieHome from '../../images/proyectos/davidBowie/davidBowieHome.png';
 import QueenHome from '../../images/proyectos/Queen/queenHome.png';
 import AyoHome from '../../images/proyectos/ayo/ayoHome.png';
+import WeaterHome from '../../images/proyectos/weatherReport/portadaAppClima.png';
+import GitHubJobsHome from '../../images/proyectos/githubJobs/portadaGithubJobs.png';
 
 import GifBowie from '../../images/proyectos/davidBowie/dbGifPresentation.gif';
 import GifQueen from '../../images/proyectos/Queen/queenGifPresentation.gif';
@@ -37,6 +39,28 @@ const infoProyectos = [
   },
   {
     id: 3,
+    claseLink: "ayoPage",
+    tituloProyecto: "Proyecto AYO",
+    description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
+    linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
+    imagen: AyoHome,
+    gif: GifAyo,
+    gifClase: "gifLinkProyect",
+    individualClase:"ayoGif"
+  },
+  {
+    id: 4,
+    claseLink: "ayoPage",
+    tituloProyecto: "Proyecto AYO",
+    description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
+    linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
+    imagen: WeaterHome,
+    gif: GifAyo,
+    gifClase: "gifLinkProyect",
+    individualClase:"ayoGif"
+  },
+  {
+    id: 5,
     claseLink: "ayoPage",
     tituloProyecto: "Proyecto AYO",
     description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
