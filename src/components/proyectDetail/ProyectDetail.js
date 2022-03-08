@@ -73,7 +73,7 @@ function ProyectDetail(props) {
       subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
       linkProyecto:"//github-jobs-proyect.firebaseapp.com",
       imagen1: AyoHome,
-      parrafo1: "Esta aplicación fue hecha 100% Utilizando React, el diseño y herramientas fueron brindadas por parte de Dev-Challenges. Consiste en hacer un llamado a una API, la cual brinda el clima de diversas localidades en los próximos 5 días.",
+      parrafo1: "Esta página se creó utilizando React Js en su funcionamiento, y se utilizó Firebase para subirlo a un servidor, el sketch del diseño fue brindado por Dev-Challenges, el cual me encargué de plasmarlo al código en detalle. La página también realiza un llamado hacia una API para recolectar la información de cada puesto de trabajo.",
       imagen2: AyoResponsive,
       parrafo2: "La misma cuenta con una barra de búsqueda completamente funcional, y según la localidad seleccionada, la información del clima se actualizará en cuestión de segundos :)",
       imagen3: AyoNoticias,
