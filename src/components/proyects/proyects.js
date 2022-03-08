@@ -12,6 +12,8 @@ import GitHubJobsHome from '../../images/proyectos/githubJobs/portadaGithubJobs.
 import GifBowie from '../../images/proyectos/davidBowie/dbGifPresentation.gif';
 import GifQueen from '../../images/proyectos/Queen/queenGifPresentation.gif';
 import GifAyo from '../../images/proyectos/ayo/gifHome.gif';
+import GifWeatherReport from '../../images/proyectos/weatherReport/gifMuestraClima.gif';
+import GifGitHubJobs from '../../images/proyectos/githubJobs/githubjobsMuestra.gif';
 import AOS from 'aos';
 const infoProyectos = [
   {
@@ -55,7 +57,7 @@ const infoProyectos = [
     description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
     imagen: WeaterHome,
-    gif: GifAyo,
+    gif: GifWeatherReport,
     gifClase: "gifLinkProyect",
     individualClase:"ayoGif"
   },
@@ -66,7 +68,7 @@ const infoProyectos = [
     description: "Pagina con diseño profesiona, brinda informacion detallada acerca de la Fundacion AYO, con un diseño sumamente responsivo, agradable en cuanto a interfaz y experiencia de usuario",
     linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
     imagen: GitHubJobsHome,
-    gif: GifAyo,
+    gif: GifGitHubJobs,
     gifClase: "gifLinkProyect",
     individualClase:"ayoGif"
   }
