@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './ProyectDetail.css';
-import DavidBowieHome from '../../images/proyectos/davidBowie/davidBowieHome.png'
-import DavidBowieDiscos from '../../images/proyectos/davidBowie/davidBowieDiscos.png'
-import DavidBowieDarkMode from '../../images/proyectos/davidBowie/davidBowieDarkmode.png'
-import QueenHome from '../../images/proyectos/Queen/queenHome.png'
-import QueenDiscografia from '../../images/proyectos/Queen/queenDiscografia.png'
-import QueenCart from '../../images/proyectos/Queen/queenCart.png'
-import AyoHome from '../../images/proyectos/ayo/ayoHome.png'
-import AyoNoticias from '../../images/proyectos/ayo/ayoNoticias.png'
-import AyoResponsive from '../../images/proyectos/ayo/ayoResponsive.png'
 import ProyectDetailContent from './ProyectDetailContent';
+import DavidBowieHome from '../../images/proyectos/davidBowie/davidBowieHome.png';
+import DavidBowieDiscos from '../../images/proyectos/davidBowie/davidBowieDiscos.png';
+import DavidBowieDarkMode from '../../images/proyectos/davidBowie/davidBowieDarkmode.png';
+import QueenHome from '../../images/proyectos/Queen/queenHome.png';
+import QueenDiscografia from '../../images/proyectos/Queen/queenDiscografia.png';
+import QueenCart from '../../images/proyectos/Queen/queenCart.png';
+import AyoHome from '../../images/proyectos/ayo/ayoHome.png';
+import AyoNoticias from '../../images/proyectos/ayo/ayoNoticias.png';
+import AyoResponsive from '../../images/proyectos/ayo/ayoResponsive.png';
 import AOS from 'aos'
 function ProyectDetail(props) {
   const infoProyectos = [
@@ -53,6 +53,19 @@ function ProyectDetail(props) {
       imagen3: AyoNoticias,
       parrafo3: "Cuenta con mas de 5 ventanas en las cuales se visualiza informacion de la Fundacion :) Y tambien cuenta con acceso a las noticias en la pagina principal, las cuales son noticias verdaderas y cuentan con una pestaña especial para cada una"
     },
+    {
+      id: 4,
+      claseLink: "weatherApp",
+      tituloProyecto: "Weather App",
+      subTitle:"Esta aplicación fue hecha 100% Utilizando React, el diseño y herramientas fueron brindadas por parte de Dev-Challenges. Consiste en hacer un llamado a una API, la cual brinda el clima de diversas localidades en los próximos 5 días. ",
+      linkProyecto:"//franco-ezequiel-marchegiani.github.io/proyecto-AYO/",
+      imagen1: AyoHome,
+      parrafo1: "Este fue el primer proyecto en el cual trabaje en equipo, y para una empresa. Si bien puede que a simple vista sea un simple, es un proyecto en el cual trabaje muy duro y el cual me llevo excelentes experiencias del tiempo en el cual cree esta pagina :)",
+      imagen2: AyoResponsive,
+      parrafo2: "La pagina cuenta con un diseño y estructura la cual le permite ser 100% responsive",
+      imagen3: AyoNoticias,
+      parrafo3: "Cuenta con mas de 5 ventanas en las cuales se visualiza informacion de la Fundacion :) Y tambien cuenta con acceso a las noticias en la pagina principal, las cuales son noticias verdaderas y cuentan con una pestaña especial para cada una"
+    }
   ]
   AOS.init()
     //Permite extraer id de la URL
