@@ -76,7 +76,8 @@ const infoProyectos = [
     individualClase:"githubJobsGif"
   },
   {
-    id: 6
+    id: 6,
+    claseLink: "quizApp"
   }
 ]
 function Proyect() {
