@@ -74,6 +74,9 @@ const infoProyectos = [
     gif: GifGitHubJobs,
     gifClase: "gifLinkProyect",
     individualClase:"githubJobsGif"
+  },
+  {
+    id: 6
   }
 ]
 function Proyect() {
