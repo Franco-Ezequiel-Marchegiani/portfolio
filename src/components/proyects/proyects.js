@@ -77,7 +77,8 @@ const infoProyectos = [
   },
   {
     id: 6,
-    claseLink: "quizApp"
+    claseLink: "quizApp",
+    tituloProyecto: "Quiz App"
   }
 ]
 function Proyect() {
