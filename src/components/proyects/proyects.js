@@ -83,6 +83,8 @@ const infoProyectos = [
     linkProyecto:"//quiz-app-game-c940b.web.app/",
     imagen: QuizApp,
     gif: GifQuizApp,
+    gifClase: "gifLinkProyect",
+    
   }
 ]
 function Proyect() {
