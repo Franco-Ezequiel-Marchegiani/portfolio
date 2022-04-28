@@ -8,12 +8,14 @@ import QueenHome from '../../images/proyectos/Queen/queenHome.png';
 import AyoHome from '../../images/proyectos/ayo/ayoHome.png';
 import WeaterHome from '../../images/proyectos/weatherReport/portadaAppClima.png';
 import GitHubJobsHome from '../../images/proyectos/githubJobs/portadaGithubJobs.png';
+import QuizApp from '../../images/proyectos/quizApp/home.pgn';
 
 import GifBowie from '../../images/proyectos/davidBowie/dbGifPresentation.gif';
 import GifQueen from '../../images/proyectos/Queen/queenGifPresentation.gif';
 import GifAyo from '../../images/proyectos/ayo/gifHome.gif';
 import GifWeatherReport from '../../images/proyectos/weatherReport/gifMuestraClima.gif';
 import GifGitHubJobs from '../../images/proyectos/githubJobs/githubjobsMuestra.gif';
+
 import AOS from 'aos';
 const infoProyectos = [
   {
@@ -71,7 +73,7 @@ const infoProyectos = [
     gif: GifGitHubJobs,
     gifClase: "gifLinkProyect",
     individualClase:"githubJobsGif"
-  }
+  },
 ]
 function Proyect() {
   AOS.init()

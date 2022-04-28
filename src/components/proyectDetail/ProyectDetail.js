@@ -15,6 +15,11 @@ import AyoResponsive from '../../images/proyectos/ayo/ayoResponsive.png';
 import WeatherHome from '../../images/proyectos/weatherReport/portadaAppClima.png';
 import WeatherSecond from '../../images/proyectos/weatherReport/appClima1.png';
 import WeatherThird from '../../images/proyectos/weatherReport/appClima2.png';
+
+import GithubJobsHome from '../../images/proyectos/githubJobs/portadaGithubJobs.png';
+import GithubJobsSecond from '../../images/proyectos/githubJobs/githubJobs1.png';
+import GithubJobsThird from '../../images/proyectos/githubJobs/githubJobs2.png';
+
 import AOS from 'aos'
 function ProyectDetail(props) {
   const infoProyectos = [
@@ -76,11 +81,24 @@ function ProyectDetail(props) {
       tituloProyecto: "Github Jobs",
       subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
       linkProyecto:"//github-jobs-proyect.firebaseapp.com",
-      imagen1: AyoHome,
+      imagen1: GithubJobsHome,
       parrafo1: "Esta página se creó utilizando React Js en su funcionamiento, y se utilizó Firebase para subirlo a un servidor, el sketch del diseño fue brindado por Dev-Challenges, el cual me encargué de plasmarlo al código en detalle. La página también realiza un llamado hacia una API para recolectar la información de cada puesto de trabajo.",
-      imagen2: AyoResponsive,
+      imagen2: GithubJobsSecond,
       parrafo2: "La página consiste en mostrar trabajos disponibles, cuenta con dos barras de búsquedas completamente funcionales, y también un filtro para aquellos trabajos que son Full-Time o de tiempo completo",
-      imagen3: AyoNoticias,
+      imagen3: GithubJobsThird,
+      parrafo3: "También, cuenta con la vista del detalle del puesto de trabajo el cual cuenta en detalle información del puesto, qué requisitos se necesita, los beneficios que incluye, etc. En esta sección es información 100% recolectada de la API la cual utilicé para dicho proyecto"
+    },
+    {
+      id: 6,
+      claseLink: "githubJobs",
+      tituloProyecto: "Github Jobs",
+      subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
+      linkProyecto:"//github-jobs-proyect.firebaseapp.com",
+      imagen1: GithubJobsHome,
+      parrafo1: "Esta página se creó utilizando React Js en su funcionamiento, y se utilizó Firebase para subirlo a un servidor, el sketch del diseño fue brindado por Dev-Challenges, el cual me encargué de plasmarlo al código en detalle. La página también realiza un llamado hacia una API para recolectar la información de cada puesto de trabajo.",
+      imagen2: GithubJobsSecond,
+      parrafo2: "La página consiste en mostrar trabajos disponibles, cuenta con dos barras de búsquedas completamente funcionales, y también un filtro para aquellos trabajos que son Full-Time o de tiempo completo",
+      imagen3: GithubJobsThird,
       parrafo3: "También, cuenta con la vista del detalle del puesto de trabajo el cual cuenta en detalle información del puesto, qué requisitos se necesita, los beneficios que incluye, etc. En esta sección es información 100% recolectada de la API la cual utilicé para dicho proyecto"
     }
   ]
