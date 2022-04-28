@@ -84,7 +84,7 @@ const infoProyectos = [
     imagen: QuizApp,
     gif: GifQuizApp,
     gifClase: "gifLinkProyect",
-    
+    individualClase:"quizAppGif"
   }
 ]
 function Proyect() {
