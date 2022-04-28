@@ -104,6 +104,14 @@
     font-weight: 500;
     font-size: 17px;
 }
+.quizAppGif{
+    height: 50%;
+}
+@media only screen and (min-width: 440px){
+    .quizAppGif{
+        height: 65%;
+    }
+}
 @media only screen and (min-width: 768px){
     .titleProyectos{
         font-size: 48px;
@@ -123,6 +131,9 @@
     }
     .ayoPage::after{
         content: "";
+    }
+    .quizAppGif{
+        height: 75%;
     }
 }
 @media only screen and (min-width: 1200px){
@@ -147,6 +158,18 @@
     .gifLinkProyect{
         width: 100%;
     }
+    .quizAppGif{
+        height: 70%;
+    }
     
-    
+}
+@media only screen and (min-width: 1500px){
+    .quizAppGif{
+        height: 75%;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .quizAppGif{
+        height: 78%;
+    }
 }
