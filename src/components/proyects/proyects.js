@@ -82,6 +82,7 @@ const infoProyectos = [
     description: "Sitio web con juego de Quiz/adivinanzas, posee dos modos de juegos y cuenta con puntaje en ambos modos, cuenta con idioma en Español e Inglés",
     linkProyecto:"//quiz-app-game-c940b.web.app/",
     imagen: QuizApp,
+    gif: GifQuizApp,
   }
 ]
 function Proyect() {
