@@ -15,6 +15,7 @@ import GifQueen from '../../images/proyectos/Queen/queenGifPresentation.gif';
 import GifAyo from '../../images/proyectos/ayo/gifHome.gif';
 import GifWeatherReport from '../../images/proyectos/weatherReport/gifMuestraClima.gif';
 import GifGitHubJobs from '../../images/proyectos/githubJobs/githubjobsMuestra.gif';
+import GifQuizApp from '../../images/proyectos/quizApp/gifHome.gif';
 
 import AOS from 'aos';
 const infoProyectos = [
