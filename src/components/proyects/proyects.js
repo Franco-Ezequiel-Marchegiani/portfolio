@@ -79,7 +79,8 @@ const infoProyectos = [
     id: 6,
     claseLink: "quizApp",
     tituloProyecto: "Quiz App",
-    description: "Sitio web con juego de Quiz/adivinanzas, posee dos modos de juegos y cuenta con puntaje en ambos modos, cuenta con idioma en Español e Inglés"
+    description: "Sitio web con juego de Quiz/adivinanzas, posee dos modos de juegos y cuenta con puntaje en ambos modos, cuenta con idioma en Español e Inglés",
+    linkProyecto:"//quiz-app-game-c940b.web.app/"
   }
 ]
 function Proyect() {
