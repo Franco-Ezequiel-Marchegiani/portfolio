@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0aed0850.chunk.css",
-    "main.js": "/portfolio/static/js/main.9b16e409.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9b16e409.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.39ac487a.chunk.css",
+    "main.js": "/portfolio/static/js/main.9fe88782.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9fe88782.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.86fd5783.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.86fd5783.js.map",
     "static/css/2.a1596f27.chunk.css": "/portfolio/static/css/2.a1596f27.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.e4306729.chunk.js.map": "/portfolio/static/js/3.e4306729.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/portfolio/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.0aed0850.chunk.css.map": "/portfolio/static/css/main.0aed0850.chunk.css.map",
+    "static/css/main.39ac487a.chunk.css.map": "/portfolio/static/css/main.39ac487a.chunk.css.map",
     "static/js/2.b9aa8a58.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b9aa8a58.chunk.js.LICENSE.txt",
     "static/media/Sass.4f325490.png": "/portfolio/static/media/Sass.4f325490.png",
     "static/media/appClima1.3e41a34c.png": "/portfolio/static/media/appClima1.3e41a34c.png",
@@ -43,12 +43,16 @@
     "static/media/english.7d3f62a1.png": "/portfolio/static/media/english.7d3f62a1.png",
     "static/media/gifAYOEmprende.7a4a6d61.gif": "/portfolio/static/media/gifAYOEmprende.7a4a6d61.gif",
     "static/media/gifHome.c2af12dd.gif": "/portfolio/static/media/gifHome.c2af12dd.gif",
+    "static/media/gifHome.c785857d.gif": "/portfolio/static/media/gifHome.c785857d.gif",
     "static/media/gifMuestraClima.59ca4e95.gif": "/portfolio/static/media/gifMuestraClima.59ca4e95.gif",
     "static/media/gifSobreAYO.8384761f.gif": "/portfolio/static/media/gifSobreAYO.8384761f.gif",
     "static/media/git.77fcd354.png": "/portfolio/static/media/git.77fcd354.png",
     "static/media/githubJobs1.c291eec2.png": "/portfolio/static/media/githubJobs1.c291eec2.png",
     "static/media/githubJobs2.3e824d0e.png": "/portfolio/static/media/githubJobs2.3e824d0e.png",
     "static/media/githubjobsMuestra.30fd240e.gif": "/portfolio/static/media/githubjobsMuestra.30fd240e.gif",
+    "static/media/home.a5aec157.png": "/portfolio/static/media/home.a5aec157.png",
+    "static/media/home1.d4e6065b.png": "/portfolio/static/media/home1.d4e6065b.png",
+    "static/media/home2.1727d45e.png": "/portfolio/static/media/home2.1727d45e.png",
     "static/media/html.bbc8456b.png": "/portfolio/static/media/html.bbc8456b.png",
     "static/media/imgAyoEmprende.083ae787.png": "/portfolio/static/media/imgAyoEmprende.083ae787.png",
     "static/media/imgHomeAYO.63e8908d.png": "/portfolio/static/media/imgHomeAYO.63e8908d.png",
@@ -71,7 +75,7 @@
     "static/js/runtime-main.86fd5783.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.b9aa8a58.chunk.js",
-    "static/css/main.0aed0850.chunk.css",
-    "static/js/main.9b16e409.chunk.js"
+    "static/css/main.39ac487a.chunk.css",
+    "static/js/main.9fe88782.chunk.js"
   ]
 }
