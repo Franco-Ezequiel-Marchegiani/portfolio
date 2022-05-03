@@ -126,5 +126,4 @@ function ProyectDetail(props) {
     </section>
   );
 }
-
 export default ProyectDetail;
