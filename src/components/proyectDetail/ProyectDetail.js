@@ -22,7 +22,7 @@ import GithubJobsThird from '../../images/proyectos/githubJobs/githubJobs2.png';
 
 import quizAppHome from '../../images/proyectos/quizApp/home.png';
 import quizAppSecond from '../../images/proyectos/quizApp/home1.png';
-
+import quizAppThird from '../../images/proyectos/quizApp/home2.png';
 
 import AOS from 'aos'
 function ProyectDetail(props) {
