@@ -6,6 +6,7 @@
 }
 .proyectLinksContainer{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     flex-direction: column;
@@ -135,10 +136,13 @@
         padding: 0 12px 0;
     }
     .ayoPage::after{
-        content: "";
+        content: "|";
     }
     .quizAppGif{
         height: 74%;
+    }
+    .quizApp::after{
+        content: "";
     }
 }
 @media only screen and (min-width: 1200px){

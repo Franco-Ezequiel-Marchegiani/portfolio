@@ -90,8 +90,6 @@ function ProyectDetail(props) {
     },
     {
       id: 6,
-      claseLink: "githubJobs",
-      tituloProyecto: "Github Jobs",
       subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
       linkProyecto:"//github-jobs-proyect.firebaseapp.com",
       imagen1: GithubJobsHome,
