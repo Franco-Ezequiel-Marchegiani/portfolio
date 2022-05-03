@@ -93,7 +93,7 @@ function ProyectDetail(props) {
       claseLink: "quizApp",
       tituloProyecto: "Quiz App",
       subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
-      linkProyecto:"//github-jobs-proyect.firebaseapp.com",
+      linkProyecto:"//quiz-app-game-c940b.web.app",
       imagen1: GithubJobsHome,
       parrafo1: "Esta página se creó utilizando React Js en su funcionamiento, y se utilizó Firebase para subirlo a un servidor, el sketch del diseño fue brindado por Dev-Challenges, el cual me encargué de plasmarlo al código en detalle. La página también realiza un llamado hacia una API para recolectar la información de cada puesto de trabajo.",
       imagen2: GithubJobsSecond,
