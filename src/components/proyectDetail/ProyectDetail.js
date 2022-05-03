@@ -103,7 +103,7 @@ function ProyectDetail(props) {
       imagen2: quizAppSecond,
       parrafo2: "Ambos modos de juegos son similares, ambos muestra la respuesta correcta y las incorrectas. Todo el sitio cuenta con la opción de cambiar el lenguaje a Inglés (y también Español), para que cualquiera pueda ingresar y jugar en el sitio sin inconvenientes.",
       imagen3: quizAppThird,
-      
+      parrafo3: "También posee un sistema para sumar los puntos que se acumularon a medida que el usuario juega en los diversos modos de juego, y se le brinda la opción de volver a comenzar, o volver al inicio para cambiar el modo de juego"
     }
   ]
   AOS.init()
