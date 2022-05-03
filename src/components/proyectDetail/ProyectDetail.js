@@ -101,6 +101,8 @@ function ProyectDetail(props) {
       imagen1: quizAppHome,
       parrafo1: "Es un proyecto más simplificado pero no por ello fue fácil realizarlo, se llevó acabo meticulosa lógica para el correcto funcionamiento. Cuenta con dos opciones de juego, la opción de Capitales & Banderas.",
       imagen2: quizAppSecond,
+      parrafo2: "Ambos modos de juegos son similares, ambos muestra la respuesta correcta y las incorrectas. Todo el sitio cuenta con la opción de cambiar el lenguaje a Inglés (y también Español), para que cualquiera pueda ingresar y jugar en el sitio sin inconvenientes.",
+      imagen3: quizAppThird,
       
     }
   ]
