@@ -98,11 +98,11 @@ function ProyectDetail(props) {
       tituloProyecto: "Quiz App",
       subTitle:"Página Web para búsqueda de trabajo online, Desafío hecho de manera autodidacta de la mano de Dev Challenges",
       linkProyecto:"//quiz-app-game-c940b.web.app",
-      imagen1: GithubJobsHome,
+      imagen1: quizAppHome,
       parrafo1: "Esta página se creó utilizando React Js en su funcionamiento, y se utilizó Firebase para subirlo a un servidor, el sketch del diseño fue brindado por Dev-Challenges, el cual me encargué de plasmarlo al código en detalle. La página también realiza un llamado hacia una API para recolectar la información de cada puesto de trabajo.",
-      imagen2: GithubJobsSecond,
+      
       parrafo2: "La página consiste en mostrar trabajos disponibles, cuenta con dos barras de búsquedas completamente funcionales, y también un filtro para aquellos trabajos que son Full-Time o de tiempo completo",
-      imagen3: GithubJobsThird,
+      
       parrafo3: "También, cuenta con la vista del detalle del puesto de trabajo el cual cuenta en detalle información del puesto, qué requisitos se necesita, los beneficios que incluye, etc. En esta sección es información 100% recolectada de la API la cual utilicé para dicho proyecto"
     }
   ]
