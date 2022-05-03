@@ -99,6 +99,8 @@ function ProyectDetail(props) {
       subTitle:"Este sitio web muestra el juego de opción múltiple con distintas preguntas para sumar puntos y así contar con el puntaje más alto, la finalidad del mismo es aprender algo nuevo y divertirse en el proceso",
       linkProyecto:"//quiz-app-game-c940b.web.app",
       imagen1: quizAppHome,
+      parrafo1: "Es un proyecto más simplificado pero no por ello fue fácil realizarlo, se llevó acabo meticulosa lógica para el correcto funcionamiento. Cuenta con dos opciones de juego, la opción de Capitales & Banderas.",
+      imagen2: quizAppSecond,
       
     }
   ]
