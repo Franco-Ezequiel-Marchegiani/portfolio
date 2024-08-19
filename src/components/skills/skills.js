@@ -15,34 +15,67 @@ import ScrumLogo from '../../images/icons/scrum.png';
 import TrelloLogo from '../../images/icons/trello.png';
 import AzureLogo from '../../images/icons/azure.png';
 import PythonLogo from '../../images/icons/python.png';
+
+
+
 function Skills() {
+
+  //Fechas de inicio de mi experiencia
+  const startDates = {
+    html: new Date('2020-03-01'),
+    css: new Date('2020-03-01'),
+    javascript: new Date('2021-03-01'),
+    git: new Date('2021-03-01'),
+    mySql: new Date('2022-02-01'),
+    node_js: new Date('2022-02-01'),
+    react: new Date('2022-02-01'),
+    python: new Date('2023-02-01'),
+    azure: new Date('2024-02-01'),
+  };
+
+  //Función para calcular la experiencia en cada herramienta
+  function calculateExperience(startDate) {
+    //Tomamos la fecha actual
+    const currentDate = new Date();
+    //Restamos el valor que le pasamos por parámetros, y obtenemos la diferencia
+    const years = currentDate.getFullYear() - startDate.getFullYear();
+    const months = currentDate.getMonth() - startDate.getMonth();
+  
+    //Si es menos de un año, muestra los meses
+    if (years === 0) {
+      return `${months < 0 ? months + 12 : months} Meses`;
+    }
+  
+    //Caso contrario, devuelve los años de experiencia
+    return `${years} Años`;
+  }
   const skillData = [
     {
       logo: HtmlLogo,
-      experience: "+4 Años utilizando HTML"
+      experience: `+${calculateExperience(startDates.html)} utilizando HTML`
     },
     {
       logo: CssLogo,
-      experience: "+4 Años utilizando CSS"
+      experience: `+${calculateExperience(startDates.css)} Años utilizando CSS`
     },
     {
       logo: JsLogo,
-      experience: "+3 Años utilizando JS"
+      experience: `+${calculateExperience(startDates.javascript)} Años utilizando JS`
     },
     {
       logo: GitLogo,
-      experience: "+3 Años utilizando Git & GitHub"
+      experience: `+${calculateExperience(startDates.git)} Años utilizando Git & GitHub`
     },
     {
       logo: MySqlLogo,
-      experience: "+2 Años utilizando MySql"
+      experience: `+${calculateExperience(startDates.mySql)} Años utilizando MySql`
     },
     {
       logo: NodeJsLogo,
-      experience: "+2 Años utilizando NodeJs"
+      experience: `+${calculateExperience(startDates.node_js)} Años utilizando NodeJs`
     },{
       logo: ReactDarkLogo,
-      experience: "+2 Años utilizando React"
+      experience: `+${calculateExperience(startDates.react)} Años utilizando React`
     },
     {
       logo: SassLogo,
@@ -58,11 +91,11 @@ function Skills() {
     },
     {
       logo: AzureLogo,
-      experience: "+6 Meses utilizando herramienta de trabajo Azure DevOps"
+      experience: `+${calculateExperience(startDates.azure)} utilizando herramienta de trabajo Azure DevOps`
     },
     {
       logo: PythonLogo,
-      experience: "+1 Año utilizando herramienta de trabajo Trello"
+      experience: `+${calculateExperience(startDates.python)} utilizando herramienta de trabajo Trello`
     },
     
     {
