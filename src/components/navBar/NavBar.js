@@ -24,6 +24,7 @@ function NavBar() {
                 <NavDropdown className="titleDropDown" variant="primary" title="Experiencia Laboral" id="nav-dropdown">
                   <NavDropdown.Item><Link className="link-navbar" to="/WorkExperience/CoderHouse">CoderHouse</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link className="link-navbar" to="/WorkExperience/AYO">Fundación AYO</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link className="link-navbar" to="/WorkExperience/Disbyte">Disbyte S.A.</Link></NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item><Link className="link-navbar" to="/WorkExperience">Ver todo</Link></NavDropdown.Item>
                 </NavDropdown>

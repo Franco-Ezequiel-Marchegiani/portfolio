@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from "./components/contact/contact";
-import Proyect from "./components/proyects/Proyects";
+import Proyect from './components/proyects/Proyects';
 import Skills from "./components/skills/skills";
 import WorkExperience from "./components/workExperience/WorkExperience";
 import NavBar from './components/navBar/NavBar';
@@ -13,6 +13,7 @@ import Footer from './components/Footer/Footer';
 import ProyectDetail from './components/proyectDetail/ProyectDetail';
 import OnlyAYOExperience from './components/workExperience/OnlyAYOExperience';
 import OnlyCoderHouseExperience from './components/workExperience/OnlyCoderHouseExperience';
+import OnlyDisbyteExperience from './components/workExperience/OnlyDisbyteExperience';
 ReactDOM.render(
   <React.StrictMode>
   
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route path="/Skills" exact={true} element={<Skills/> }/>
         <Route path="/WorkExperience" exact={true} element={<WorkExperience/> }/>
         <Route path="/WorkExperience/AYO" exact={true} element={<OnlyAYOExperience/> }/>
+        <Route path="/WorkExperience/Disbyte" exact={true} element={<OnlyDisbyteExperience/> }/>
         <Route path="/WorkExperience/CoderHouse" exact={true} element={<OnlyCoderHouseExperience/> }/>
         <Route path="/ProyectDetail/:id" exact={true} element={<ProyectDetail/> }/>
       </Routes>

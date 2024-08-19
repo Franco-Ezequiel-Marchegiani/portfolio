@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "./workExperience.css"
 
 function WorkExperience_js(props) {

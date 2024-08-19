@@ -13,34 +13,36 @@ import ReactDarkLogo from '../../images/icons/react-dark.png';
 import SassLogo from '../../images/icons/Sass.png';
 import ScrumLogo from '../../images/icons/scrum.png';
 import TrelloLogo from '../../images/icons/trello.png';
+import AzureLogo from '../../images/icons/azure.png';
+import PythonLogo from '../../images/icons/python.png';
 function Skills() {
   const skillData = [
     {
       logo: HtmlLogo,
-      experience: "+2 Años utilizando HTML"
+      experience: "+4 Años utilizando HTML"
     },
     {
       logo: CssLogo,
-      experience: "+2 Años utilizando CSS"
+      experience: "+4 Años utilizando CSS"
     },
     {
       logo: JsLogo,
-      experience: "+1 Años utilizando JS"
+      experience: "+3 Años utilizando JS"
     },
     {
       logo: GitLogo,
-      experience: "+2 Años utilizando Git & GitHub"
+      experience: "+3 Años utilizando Git & GitHub"
     },
     {
       logo: MySqlLogo,
-      experience: "+6 Meses utilizando MySql"
+      experience: "+2 Años utilizando MySql"
     },
     {
       logo: NodeJsLogo,
-      experience: "+6 Meses utilizando NodeJs"
+      experience: "+2 Años utilizando NodeJs"
     },{
       logo: ReactDarkLogo,
-      experience: "+6 Meses utilizando React"
+      experience: "+2 Años utilizando React"
     },
     {
       logo: SassLogo,
@@ -48,12 +50,21 @@ function Skills() {
     },
     {
       logo: ScrumLogo,
-      experience: "+6 Meses utilizando metodologías Scrum"
+      experience: "+1 Año utilizando metodologías Scrum"
     },
     {
       logo: TrelloLogo,
-      experience: "+6 Meses utilizando herramienta de trabajo Trello"
+      experience: "+1 Año utilizando herramienta de trabajo Trello"
     },
+    {
+      logo: AzureLogo,
+      experience: "+6 Meses utilizando herramienta de trabajo Azure DevOps"
+    },
+    {
+      logo: PythonLogo,
+      experience: "+1 Año utilizando herramienta de trabajo Trello"
+    },
+    
     {
       logo: EnglishLogo,
       experience: "Nivel general de inglés entre B1 ~ B2"
