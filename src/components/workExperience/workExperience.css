@@ -90,7 +90,7 @@
 
 .linkFundacionAYO{
     text-decoration: none;
-    color: black;
+    color: var(--text-color);
     font-weight: 500;
     padding-left: 4px;
     font-weight: 700;
